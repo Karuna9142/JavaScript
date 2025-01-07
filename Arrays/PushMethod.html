@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Push Method</title>
+</head>
+<body>
+    <script>
+        let foodItems = ["potato", "apple", "lichi", 'tomato'];
+        let veg = ["pea","carrot", "radish"]
+        /*
+        //items are added at the end
+        //foodItems.push("chips", "burger", "mushroom")
+       // console.log(foodItems)
+  
+        //pop method
+        let deleteitem = foodItems.pop();
+        console.log(foodItems);
+        console.log("deleted", deleteitem);
+
+        //toString()
+        console.log(foodItems.toString());
+        console.log(foodItems)
+
+        //concat
+        let con = foodItems.concat(veg);
+        console.log(con)
+
+        //unshift - it will add the item at the start
+        //shift = it will delete the element from the start
+       let unshi=  foodItems.shift(veg);
+       console.log("deleted",unshi);
+
+       //slice method - it will give the element from the 1st and til 3
+       console.log(foodItems)
+       console.log(foodItems.slice(1,3))
+      */
+       //splice method - (add, remove, replace)
+       foodItems.splice("cabbage",2,"kiwi" )
+       console.log(foodItems)
+    </script>
+</body>
+</html>
